@@ -1,0 +1,8 @@
+{
+  "name": "bangla-ai-api-dist",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.mjs" },
+  "dependencies": { "@libsql/client": "0.18.0" }
+}
