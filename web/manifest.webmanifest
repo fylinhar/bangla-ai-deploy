@@ -1,8 +1,11 @@
 {
+  "id": "https://banglaai.cloud/",
   "name": "BANGLA AI",
   "short_name": "BANGLA AI",
+  "description": "বাংলায় প্রশ্ন করুন, বাংলায় উত্তর পান।",
   "lang": "bn",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#006A4E",
   "theme_color": "#006A4E",
