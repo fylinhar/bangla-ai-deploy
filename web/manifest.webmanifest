@@ -1,0 +1,33 @@
+{
+  "name": "BANGLA AI",
+  "short_name": "BANGLA AI",
+  "lang": "bn",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#006A4E",
+  "theme_color": "#006A4E",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

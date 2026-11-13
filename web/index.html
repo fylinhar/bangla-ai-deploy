@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content" />
     <title>BANGLA AI</title>
     <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
     <style id="expo-reset">
@@ -23,15 +23,26 @@
         flex: 1;
       }
     </style>
-  <meta name="theme-color" content="#009CFF">
+  <meta name="theme-color" content="#006A4E">
 <meta name="description" content="বাংলায় প্রশ্ন করুন, বাংলায় উত্তর পান।">
-<link rel="icon" href="/favicon.ico"/></head>
+<link rel="icon" href="/favicon.ico"/>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+<meta name="mobile-web-app-capable" content="yes">
+<style id="boot-splash-style">
+  html, body { background: #006A4E; }
+  #boot-splash { position: fixed; inset: 0; z-index: 2147483647; display: flex; align-items: center; justify-content: center; background: #006A4E; transition: opacity .25s ease; }
+  #boot-splash img { width: 160px; height: 160px; border-radius: 50%; }
+</style>
+</head>
 
   <body>
     <!-- Use static rendering with Expo Router to support running without JavaScript. -->
     <noscript> You need to enable JavaScript to run this app. </noscript>
     <!-- The root element for your Expo app. -->
     <div id="root"></div>
-  <script src="/_expo/static/js/web/__expo-metro-runtime-8c088df87a31e4e6accd81c554ec290d.js" defer></script><script src="/_expo/static/js/web/__common-f0bbc81b62b36cc300257236f06c22ba.js" defer></script><script src="/_expo/static/js/web/entry-a7aa56c894d800ed82cd074dad944eff.js" defer></script>
+    <div id="boot-splash" aria-hidden="true"><img src="/icons/logo-256.png" alt="" /></div>
+  <script src="/_expo/static/js/web/__expo-metro-runtime-8c088df87a31e4e6accd81c554ec290d.js" defer></script><script src="/_expo/static/js/web/__common-32daa12497dd4087147d3cfedcf0cf38.js" defer></script><script src="/_expo/static/js/web/entry-bd37dd0fe0af5a254dc94a24f5ba9095.js" defer></script>
 </body>
 </html>
